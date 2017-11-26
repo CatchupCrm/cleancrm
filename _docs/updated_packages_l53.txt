@@ -1,0 +1,5 @@
+"caffeinated/menus "v2.3.2 => v3.0.4",
+"caffeinated/themes "v2.0.5 => v3.0.1",
+"gazsp/baum "1.1.5 => 1.1.2",
+"laravel/framework "v5.2.45 => v5.3.31",
+"laravelcollective/html "v5.2.6 => v5.3.2"
