@@ -63,9 +63,16 @@ class CoreServiceProvider extends ServiceProvider
         $this->publishes([
           $sourcePath => $viewPath
         ]);
+
+/*
         $this->loadViewsFrom(array_merge(array_map(function ($path) {
             return $path . '/modules/core';
         }, \Config::get('view.paths')), [$sourcePath]), 'core');
+*/
+
+        $this->loadViewsFrom(__DIR__.'/../Resources/Views', 'core');
+
+
     }
 
     /**
